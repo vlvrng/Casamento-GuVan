@@ -80,7 +80,8 @@ nav > a:hover{
     font-family: var(--fonte-padrao);
     font-weight: bold;
     color: #fff;
-    margin: 25px;
+    margin-left: 80px;
+    font-size: 20px;
 }
 
 .text-1 p{
@@ -92,7 +93,8 @@ nav > a:hover{
     font-family: var(--fonte-padrao);
     font-weight: bold;
     color: #fff;
-    margin: 25px;
+    margin-left: 80px;
+    font-size: 20px;
 }
 
 .text-2 p{
@@ -147,7 +149,26 @@ footer{
     padding-bottom: 10px;
 }
 
+.text-3{
+    padding-top: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    color: #fff;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.text-3 p{
+    padding-bottom: 10px;
+}
+
 .image-6{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.image-7{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
