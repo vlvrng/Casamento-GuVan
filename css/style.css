@@ -16,13 +16,74 @@ Paleta de cores:
 
 body{
     background-color: var(--cor1);
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
     text-align: center;
 }
 
-nav{
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--fonte-titulos);
+    font-size: 12px;
+}
+
+a:hover {
+    background: var(--cor3);
+    color: var(--cor2);
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 60px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--cor2);
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width: 600px){
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+    #nav.active #menu{
+        display: flex;
+    }
+}
+
+/*nav{
     background-color: var(--cor2);
     padding: 10px;
 }
@@ -39,7 +100,7 @@ nav > a{
 nav > a:hover{
     background-color: var(--cor3);
     color: var(--cor2);
-}
+}*/
 
 .image-1{
     text-align: center;
